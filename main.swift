@@ -8,8 +8,10 @@
 
 import Foundation
 
-var theMessage = "help"
-    let lowerMessage = theMessage.lowercased()
+//example to work with
+
+var theMessage = "shutdown"
+    theMessage = theMessage.lowercased()
 
 var About = ""
 var iTunes = "play"
