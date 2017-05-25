@@ -2,9 +2,12 @@
 //  main.swift
 //  Receiver
 //
-//  Created by Ed Gilroy on 24/5/17.
-//  
+//  Created by Ed Gilroy on 24/5/17. 
 //
+//  Free to use.
+//
+// Takes theMessage, returns theResponse.
+// 
 
 import Foundation
 
@@ -14,9 +17,9 @@ var theMessage = "shutdown"
     theMessage = theMessage.lowercased()
 
 var About = ""
-var iTunes = "play"
+var iTunes = ""            //Apple Music search function...
 var ScreenSharing = ""
-var Terminal = ""
+var Terminal = ""          //Handled by AppleScript (i.e. set the_result to do shell script the_script; return the_result
 var Power = ""
 var Status = ""
 
@@ -43,9 +46,9 @@ switch Power {
     
 }
 
-if Power != "Power help"{
-    print(Power)
-}
+//if Power != "Power help"{
+//    print(Power)
+//}
 
 switch Status {
     
@@ -60,9 +63,9 @@ switch Status {
     
 }
 
-if Status != "Status help"{
-    print(Status)
-}
+//if Status != "Status help"{
+//    print(Status)
+//}
 
 switch iTunes {
     
@@ -73,9 +76,9 @@ switch iTunes {
     default: result = "iTunes help"
 }
 
-if iTunes != "iTunes help"{
-    print(iTunes)
-}
+//if iTunes != "iTunes help"{
+//    print(iTunes)
+//}
 
 switch ScreenSharing {
     
@@ -86,9 +89,9 @@ switch ScreenSharing {
     default: result = "ScreenSharing help"
 }
 
-if ScreenSharing != "ScreenSharing help"{
-print(ScreenSharing)
-}
+//if ScreenSharing != "ScreenSharing help"{
+//print(ScreenSharing)
+//}
 
 switch Terminal {
     
@@ -99,7 +102,7 @@ switch Terminal {
     default: result = "Terminal help"
 }
 
-if Terminal != "Terminal help"{
-print(Terminal)
-}
+//if Terminal != "Terminal help"{
+//print(Terminal)
+//}
 
