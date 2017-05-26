@@ -5,8 +5,11 @@
  __________________        _________________________________        ____________________________
 | Message XXXXXXXX |  ><>< | AppleScript:                  | ----> | applescripthandler.swift   |
 |   "Play iTunes"  |       |     • off-hands: theMessage   |       |    •Interprets: theMessage |
-|__________________|       |___  • receives : theResponse__| <---  |___ •Returns: theResponse___|
-                           
+|__________________|       |___  • receives : theResponse__|       |___ •Returns: theResponse___|
+                                                                                              |
+                                                            _______________________________   |
+                                                            | Message Sent: Now playing...| <⅃
+                                                            |_____________________________|
 ```
 *I'm new to programming, and indeed Swift, so I'll be working on this very slowly over a long time.*
 
