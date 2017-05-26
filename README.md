@@ -1,9 +1,10 @@
 # applescripthandler
 ## An application for linking Messages to system-wide commands.
- __________________        _________________________________        ____________________________
+
+ \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_        \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_        \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 | Message XXXXXXXX |  ><>< | AppleScript:                  | ----> | applescripthandler.swift   |
 |   "Play iTunes"  |       |     • off-hands: theMessage   |       |    •Interprets: theMessage |
-|__________________|       |___  • receives : theResponse__| <---  |___ •Returns: theResponse___|
+|\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_|       |\_\_\_  • receives : theResponse\_\_| <---  |\_\_\_ •Returns: theResponse\_\_\_|
                            
 
 
